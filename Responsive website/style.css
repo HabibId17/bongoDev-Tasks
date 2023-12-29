@@ -1,0 +1,352 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-content: center;
+    background-color: rgb(237, 231, 231);
+}
+.header-left{
+    margin: 20px 0 0 80px;
+    
+}
+
+.header-left span{
+   font-weight: bold;
+   font-size: 25px;
+}
+.header-right{
+    margin: 10px 80px 0 0px;
+}
+.header-right i{
+    display: none;
+}
+.header-right ul li{
+    display: inline-block;
+    margin-right: 20px ;
+    
+}
+.header-right ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: .1s;
+    font-size: 20px;
+}
+.header-right ul li a:hover{
+    color: #ed4e3a;
+}
+.active{
+    color: #ed4e3a !important;
+}
+.cart{}
+.header-bottom{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(237, 231, 231);
+
+}
+.header-bottom-left{
+    margin:200px 0 0 200px ;
+}
+.header-bottom-left h1{
+    font-size: 75px;
+}
+.header-bottom-left h2{
+    font-size: 40px;
+    letter-spacing: 10px;
+}
+.header-bottom-left button {
+    padding: 10px 20px;
+    background-color: #ed4e3a;
+    border-color: #ed4e3a;
+    margin-top: 20px;
+    font-weight: 600;
+    transition: .5s;
+}
+.header-bottom-left button:hover{
+    background-color: #400c05;
+    border-color: #3d0a03;
+    color: aliceblue;
+}
+.header-bottom-right img{
+    margin-right: 200px;
+}
+
+.show{
+    margin-top: 30px;
+    margin-left: 00px;
+    display: flex;
+    justify-content: space-around;
+}
+.show-left{
+    width: 450px;
+    background-color: rgb(237, 231, 231);
+    display: flex;
+    justify-content: space-around;
+    transition: .3s;
+}
+.show-left:hover{
+    scale: 1.1;
+}
+.show-img{
+    
+}
+.show-img img{}
+.show-cnt{
+    margin-top: 70px;
+}
+.show-cnt h1{
+    margin-bottom: 10px;
+    color: rgb(125, 133, 141);
+}
+.show-cnt h2{
+    margin-bottom: 10px;
+}
+.show-right{
+    width: 450px;
+    background-color: rgb(237, 231, 231);
+    display: flex;
+    justify-content: space-around;
+    transition: .3s;
+}
+.show-right:hover{
+    scale: 1.1;
+}
+.feature{
+    margin-top: 50px;
+}
+.feature-title{
+    text-align: center;
+}
+.feature-title h1{}
+.feature-title p{
+    color: rgb(66, 64, 64);
+}
+.feature-button{
+    text-align: center;
+    gap: 20px;
+}
+.feature-button button{
+    margin: 20px;
+    padding: 8px 15px;
+    border-radius: 30px;
+    background-color: rgb(237, 231, 231);
+    border: none;
+    transition: .3s;
+}
+.feature-button button:hover{
+    background-color: #ed4e3a;
+}
+.product{
+    display: grid;
+    margin: 20px 200px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    
+}
+.card{
+    width: 250px;
+    background-color: rgb(237, 231, 231);
+    transition: .3s;
+}
+.card:hover{
+    scale: 1.1;
+}
+.product-img{}
+.product-img img{
+    width: 100%;
+}
+.product-title{
+    text-align: center;
+}
+.product-title h1{
+    
+}
+.product-title p{
+    margin-bottom: 20px;
+}
+
+.review{
+    margin: 50px 100px;
+    align-items: center;
+    
+}
+.review-title{
+    text-align: center;
+}
+.review-title h1{}
+.review-section{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 50px;
+}
+.rcard{
+    width: 49%;
+   padding: 20px;
+    display: flex;
+    
+    align-items: center;
+    background-color: rgb(237, 231, 231);
+    transition: .5s;
+}
+.rcard:hover{
+    scale: 1.05;
+}
+.rcard-img{
+    width: 100px;
+
+}
+.rcard-img img{
+    width: 100%;
+    max-height: 100%;
+    border-radius: 100%;
+}
+.rcard-cnt{}
+.rcard-cnt p{}
+
+.fotter{
+    height: 70px;
+    background-color: black;
+    text-align: center;
+    
+}
+.fotter span{
+    color: aliceblue;
+    line-height: 70px;
+}
+
+.contact{
+    text-align: center;
+    margin: 100px 300px;
+    
+    
+}
+.contact h1{
+    margin-bottom: 20px;
+}
+.contact h4{}
+.address{
+    background-color: rgb(237, 231, 231);
+    margin: 0px 300px;
+    display: flex;
+    align-items: center;
+}
+.address span{}
+.address-info{
+    margin-left: 20px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.form-title{
+    text-align: center;
+    margin: 50px 600px;
+    border-bottom: 2px solid black;
+    
+}
+form{
+    margin: 40px 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+label input{
+    width: 700px;
+    padding: 15px 0;
+    margin-bottom: 30px;
+    border: 2px solid black;
+}
+.submit-btn{
+    padding: 15px 30px;
+    background-color: #ed4e3a;
+    font-weight: bold;
+    border: #ed4e3a;
+    margin: 0px 0 20px 300px;
+    transition: .3s;
+}
+.submit-btn:hover{
+    background-color: #d00b22;
+    border: #cf0d61;
+}
+
+/* responsive */
+@media(max-width: 767px){
+    .header-right i{
+        display: block;
+        
+    }
+    .header-right i span{
+        font-size: 35px;
+    }
+    .header-right ul{
+        display: none;
+    }
+    .header-bottom{
+        flex-direction: column;
+        margin-top: -100px;
+    }
+    .header-bottom-right{
+        text-align: center;
+        margin-left: 150px;
+    }
+    .show{
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+    .product{
+        display: flex;
+        margin: 20px 100px;
+    }
+    .card{
+        width: 150px;
+    }
+    .rcard{
+        margin: auto;
+        width: 400px;
+    }
+    .contact{
+        margin: 30px 100px;
+        text-align: left;
+    }
+    .address{
+        background-color: rgb(237, 231, 231);
+        margin: 0px 10px;
+        display: flex;
+        align-items: center;
+   
+    }
+    .address-map  span iframe{
+        width: 400px;
+    }
+    .address-info{
+        margin-left: 5px;
+    }
+    form{
+        margin: 40px 100px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .form-title{
+        text-align: center;
+        margin: 50px 100px;
+        border-bottom: 2px solid black;
+        
+    }
+    label input{
+        width: 500px;
+        padding: 15px 0;
+        margin-bottom: 30px;
+        border: 2px solid black;
+        
+    }
+}
