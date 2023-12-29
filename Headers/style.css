@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+/* first */
+.header{
+    background-color: rgb(16, 13, 10);
+margin: 0 10%;
+height: 60px;
+justify-content: center;
+}
+.hr ul li{
+    display: inline-block;
+    list-style: none;
+    margin-top: 14px;
+    color: azure;
+    margin-left: 40px;
+}
+.hl{
+    display: inline-block;
+    float: left;
+    color: azure;
+    margin-top: 15px;
+    margin-left: 100px;
+}
+ul {
+    
+    float: right;
+    margin-top: 5px;
+}
+button {
+    margin-left: 40px;
+    color: azure;
+    padding: 10px 20px;
+    background-color: rgb(39, 39, 132);
+    margin-right: 103px;
+    border-radius: 21px;
+    border: 1px solid rgb(39, 39, 132);
+}
+
+/* second */
+.header2{
+    background-color: rgb(16, 13, 10);
+margin: 0 10%;
+height: 60px;
+justify-content: center;
+margin-top: 50px;
+}
+.hr2 ul li{
+    display: inline-block;
+    list-style: none;
+    margin-top: 14px;
+    color: azure;
+    margin-left: 40px;
+}
+.hl2{
+    display: inline-block;
+    float: left;
+    color: azure;
+    margin-top: 15px;
+    margin-left: 100px;
+}
+.hr2 ul {
+    
+    float: right;
+    margin-top: 5px;
+}
+.hr2 ul button {
+    margin-left: 275px;
+    color: azure;
+    padding: 10px 20px;
+    background-color: rgb(39, 39, 132);
+    margin-right: 103px;
+    border-radius: 21px;
+    border: 1px solid rgb(39, 39, 132);
+}
+.header3{
+    background-color: rgb(16, 13, 10);
+margin: 0 10%;
+height: 60px;
+justify-content: center;
+margin-top: 50px;
+}
+.hl3 ul li{
+    display: inline-block;
+    list-style: none;
+    margin-top: 14px;
+    color: azure;
+    margin-left: 40px;
+}
+.hr3{
+    display: inline-block;
+    float: right;
+    color: azure;
+    margin-top: 15px;
+    margin-right: 105px;
+}
+.hl3 ul {
+    
+    float: left;
+    margin-top: 5px;
+    margin-left: 60px;
+}
+.hl3 ul button {
+    margin-left: 40px;
+    color: azure;
+    padding: 10px 20px;
+    background-color: rgb(39, 39, 132);
+    margin-right: 103px;
+    border-radius: 21px;
+    border: 1px solid rgb(39, 39, 132);
+}
